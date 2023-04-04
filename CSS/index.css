@@ -59,11 +59,11 @@ nav{
     gap: 50px;
 }
 
-ul{    
+.ul-navbar{       
     list-style-type: none;
     justify-content: space-between;  
     color: white; 
-
+    font-size: 1.2rem;
 }
 
 .button{
@@ -77,6 +77,11 @@ ul{
     color: black;
 }
 
+.button-white-small{   
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .row-reverse{
     flex-direction: row-reverse;
 }
@@ -84,13 +89,13 @@ ul{
 .header2{
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 86%;
 }
 
 .big-pink{
     height: 80%;
-    width: 46%;
+    width: 43%;
     text-align: center;
     color: white;
 }
@@ -115,6 +120,11 @@ ul{
     background-color: black;
     color: white;
     margin-left: 25px;
+}
+
+.big-button{ 
+    font-size: 1.2rem;
+    padding: 15px 30px;
 }
 
 .blue-pink{
@@ -168,7 +178,7 @@ p{
 
 .green-square{
     width: 75%;
-    height: 1100px;
+    height: 950px;
     text-align: center;
 }
 
@@ -200,7 +210,7 @@ h3{
 }
 
 footer{
-    height: 800px;
+    height: 700px;
     width: 100%;
     background-color: #23272A;
     flex-direction: column;
@@ -208,32 +218,67 @@ footer{
 }
 
 .upper-footer{
-    height: 760px;
+    height: 450px;
     width: 100%;
     justify-content: center;
 }
 
 .square-peach-teal{   
-    height: 95%;
-    width: 75%;
-    padding-top: 20px;
+    height: 96%;
+    width: 70%;
+    padding-top: 75px;
 }
 
 .square-peach{
-    background-color: #F08080;
     height: 100%;
-    width: 25%;
+    width: 33%;
+}
+
+h4{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 45px;   
+    color: #7188da;
+    padding-bottom: 20px;
+}
+
+.flag{
+    width: 1.7rem;
+}
+
+.italiano{
+    color: white;
+    font-size: 0.93rem;
+    padding-left: 2.2px;
+}
+
+.social-icon{
+    width: 2.5rem;
+    margin-top: 1.2rem;
+    padding-right: 18px;
 }
 
 .square-teal{
-    background-color: #20B2AA;
     height: 100%;
-    width: 75%;
+    width: 67%;
+
 }
 
 .flex-teal-child{
-    flex-grow: 1;
+    flex-grow: 1; 
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 35px;
 } 
+
+h5{   
+    color: #7188da;
+}
+
+.ul-footer{
+    list-style-type: none;
+    color: white;
+}
 
 .white-border{
     border: 4px white dashed;
@@ -241,25 +286,34 @@ footer{
 
 .gray-line{
     height: 2px;
-    width: 100%;
-    background-color: #D6D7D7;
+    width: 70%;
+    background-color: #7188da;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer-wrapper{  
     justify-content: center;
-    align-items: flex-end;
     width: 100%;
     height: 114px;
 }
 
 .bottom-footer{
-    background-color: #7FFFD4;
-    height: 80px;
-    width: 75%;  
-    align-items: center;
+    height: 50px;
+    width: 70%;  
     justify-content: space-between;
 }
 
+.button-last{
+    background-color: #7188da;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+/*
 .text{
     color: black;
     background-color: #FFB6C1;
