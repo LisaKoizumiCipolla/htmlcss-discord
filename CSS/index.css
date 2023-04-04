@@ -117,12 +117,6 @@ ul{
     margin-left: 25px;
 }
 
-.line{
-    background-color:  #ADD8E6;
-    width: 100%;
-    height: 4px;
-}
-
 .blue-pink{
     height: 800px;
     width: 100%;
@@ -134,25 +128,27 @@ ul{
 }
 
 .square-blue-pink{
-    height: 80%;
-    width: 60%;
+    height: 60%;
+    width: 70%;
+    align-items: center;
 }
 
 .square-blue{
-    width: 68%;
+    width: 65%;
     height: 100%;
 }
 
 .square-pink{
     padding-top: 40px;
-    width: 32%; 
+    padding-right: 90px;
+    width: 35%; 
     height: 100%; 
 }
 
 h2{
     font-weight: 700;
     font-size: 3.3rem;
-    line-height: 50px
+    line-height: 60px
 }
 
 p{
@@ -161,8 +157,9 @@ p{
 }
 
 .bg-gray{
-    background-color: #D3D3D3;
+    background-color: #f6f6f6;
 }
+
 
 .big-background{
     height: 850px;
