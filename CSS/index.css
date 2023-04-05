@@ -129,7 +129,7 @@ nav{
 }
 
 .blue-pink{
-    padding: 100px;
+    padding: 100px 0;
     width: 100%;
     align-items: center;
 }
@@ -144,8 +144,8 @@ nav{
 }
 
 .square-blue{
-    width: 65%;
-}
+    width: 65%;}
+
 
 .square-pink{
     padding-top: 40px;
@@ -180,6 +180,10 @@ p{
     text-align: center;
 }
 
+.green-square p{
+    padding: 40px 190px 0;
+}
+
 .big-img{
     width: 1200px;
 }
@@ -202,6 +206,9 @@ h3{
     background-color: #8ea1e1;
     margin-top: 60px;
     color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 18px 36px;
 }
 
 footer{
